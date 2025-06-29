@@ -50,7 +50,7 @@ void setup() {
     steppers.addStepper(s2);
     steppers.addStepper(s3);
 
-    positions[0] = 1000;
+    positions[0] = 4000;
     positions[1] = 1000;
     positions[2] = 1000;
     steppers.moveTo(positions);
